@@ -1,0 +1,54 @@
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #000003;
+  width: 110%;
+  height: 20vh;
+}
+header #logoDiv {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  background-color: red;
+  margin: 5px;
+}
+header #logoDiv img {
+  width: 25%;
+  height: 7vh;
+}
+header #logoDiv #logoText {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  background-color: indigo;
+}
+header #logoDiv #logoText h2 {
+  color: yellow;
+  background-color: transparent;
+}
+header #logoDiv #logoText p {
+  color: #000;
+  background-color: transparent;
+}
+header #list {
+  width: 40%;
+  list-style: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-weight: 600;
+}
+header #list li {
+  text-decoration: none;
+}
+header #list a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
